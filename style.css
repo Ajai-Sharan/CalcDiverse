@@ -1568,6 +1568,14 @@ footer {
     margin: 0;
 }
 
+/* input, textarea {
+    font-family: inherit;
+}
+
+textarea {
+    resize: none;
+} */
+
 .quick-links li,
 .send-message button {
     margin-bottom: 10px;
@@ -1583,7 +1591,7 @@ footer {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 4px; 
 }
 
 .copyright {
@@ -1622,10 +1630,12 @@ footer {
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 16px;
+    font-family: inherit;
 }
 
 .send-message textarea {
     height: 50px;
+    resize: none;
 }
 
 .send-message button {
